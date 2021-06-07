@@ -1,6 +1,8 @@
-# FaceDetection
-
+# Attendance using face detectiom
 This Project detects faces using your webcam and compares it woth images stored on your dektop.If the images matches,Attendance is given to the matched face.
+
+
+
 To run this code ,make sure you install the following libraries:
       1)numpy (pip install numpy)
       2)opencv (pip install opencv-python)
