@@ -3,7 +3,9 @@ This Project detects faces using your webcam and compares it with images stored 
 
 
 
+
 To run this code ,make sure you install the following libraries:
+
       1)numpy (pip install numpy)
       
       2)opencv (pip install opencv-python)
@@ -22,6 +24,7 @@ while instaliing visual studio 2019,make sure you install c++ files in it .
 
 The practice file helps the user understand the 3 steps to face detection and recognition 
 In short they are:
+
 step 1)Importing of image and converting it into RGB(the original images is always in BGR, we concert it to RGB so that the colours are more real to the actual image)
 
 step 2)Finding the faces in the imported image and encoding them(for finding the faces we use face_recognition.face_locations method and for encoding we use the face_recognition.face_encodings method)
